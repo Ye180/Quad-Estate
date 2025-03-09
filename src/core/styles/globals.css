@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --second: #F5F8FD;
+  --gray: #DBE0E8;
+  --black: #020002;
+}
+
+@theme {
+  --color-primary: var(--background);
+  --color-second: var(--second);
+  --color-gray: var(--gray);
+  --color-black: var(--black);
+  --font-manrope: 'Manrope Variable', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-family: 'Manrope Variable', sans-serif;
+}
