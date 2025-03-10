@@ -1,4 +1,7 @@
+import Header from "@/core/components/molecules/header";
 import "@/core/styles/globals.css";
+import '@fontsource-variable/manrope';
+import '@fontsource-variable/teko';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,6 +19,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <Header/>
         {children}
       </body>
     </html>

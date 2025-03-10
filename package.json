@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.2.5",
+    "@fontsource-variable/teko": "^5.2.5",
+    "@fontsource/anton": "^5.2.5",
+    "@fontsource/krona-one": "^5.2.5",
     "clsx": "^2.1.1",
     "next": "15.2.1",
     "react": "^19.0.0",
