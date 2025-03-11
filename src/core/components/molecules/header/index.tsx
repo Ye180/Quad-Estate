@@ -8,7 +8,7 @@ const Header = () => {
                   <h1 className="font-teko font-bold text-5xl">Quad</h1>
             </div>
 
-              <div className="flex justify-between gap-2 pb-3 border-b border-gray w-80">
+              <div className="flex justify-between gap-2 pb-3 border-b border-gray lg:w-80">
                   {HeaderTableData.map((item) => (
                       <Button url="/" key={item.id} variant="primary" className="borer-none px-3">{item.title}</Button>
                   ))}

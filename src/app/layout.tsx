@@ -1,27 +1,25 @@
 import Header from "@/core/components/molecules/header";
 import "@/core/styles/globals.css";
-import '@fontsource-variable/manrope';
-import '@fontsource-variable/teko';
+import "@fontsource-variable/manrope";
+import "@fontsource-variable/teko";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Quad Estate",
-  description: "Quad Estate",
+	title: "Quad Estate",
+	description: "Quad Estate",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`antialiased`}
-      >
-        <Header/>
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`antialiased`}>
+				<Header />
+				{children}
+			</body>
+		</html>
+	);
 }
