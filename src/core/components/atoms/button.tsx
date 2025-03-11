@@ -18,7 +18,7 @@ const Button = ({ children, className, variant, url, ...props }: ButtonProps) =>
   const second = "text-black bg-second border transition border-second hover:bg-black hover:text-second hover:border-black";
 
   return (
-    <Link href={url} className={cn("text-sm font-extralight  py-3 px-6 rounded-4xl ",variant==='secondary' ? second : primary , className)} {...props}>
+    <Link href={url} className={cn("text-xs font-extralight  py-3 px-6 rounded-4xl md:text-sm",variant==='secondary' ? second : primary , className)} {...props}>
       {children}
     </Link>
   )

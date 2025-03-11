@@ -8,7 +8,9 @@
   --black: #020002;
 }
 
-@theme {
+@layer base{
+
+  @theme {
   --color-primary: var(--background);
   --color-second: var(--second);
   --color-gray: var(--gray);
@@ -21,15 +23,19 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  overflow: none;
-  
+  padding: 0;
+  margin: 0;
+
 }
-
-
 
 body {
     font-family: 'Manrope Variable', sans-serif;
 
     padding: 0;
-  margin: 0;
+  
+    margin: 0;
 }
+
+}
+
+
