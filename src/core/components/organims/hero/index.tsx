@@ -1,16 +1,14 @@
-import Picture from "../../molecules/hero/picture"
-import Title from "../../molecules/hero/title"
+import Picture from "../../molecules/hero/picture";
+import Title from "../../molecules/hero/title";
 
 const Hero = () => {
-      return (
-            <div className="container max-auto space-y-16 ">
-                  <Title />
+	return (
+		<div className="container max-auto space-y-16 ">
+			<Title />
 
-                  <Picture/>
-            </div>
-        
-        
-  )
-}
+			<Picture />
+		</div>
+	);
+};
 
-export default Hero
+export default Hero;
