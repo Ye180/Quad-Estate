@@ -56,10 +56,9 @@
 	}
 
 	.widthPhone {
-		width: 2rem;
-		height: 2rem;
+		width: 10%;
+		height: 10%;
 		cursor: "pointer";
-		/* border-radius: 100%; */
 	}
 
 	.widthPhone[data-isopen="true"] {

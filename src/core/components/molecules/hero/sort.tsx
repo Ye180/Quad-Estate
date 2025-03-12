@@ -1,9 +1,10 @@
 "use client";
+import Toggle from "@/core/ui/hero/toggle";
+import { ValueUI } from "@/core/ui/hero/value";
 import { motion } from "motion/react";
 import Image from "next/image";
 import { useState } from "react";
-import Toggle from "../../../ui/hero/toggle";
-import { ValueUI } from "../../../ui/hero/value";
+import CloseIcon from "../../atoms/icons/close.icon";
 
 const Sort = ({ picture }: { picture: string }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -14,8 +15,8 @@ const Sort = ({ picture }: { picture: string }) => {
 		<motion.div
 			layout
 			data-isopen={isOpen}
-			className="widthPhone flex flex-col py-4 px-2 justify-between items-center absolute shadow-xl overflow-hidden lg:left-8 z-20 rounded-2xl backdrop-blur-xl max-lg:inset-1/2 max-lg:-translate-1/2 lg:h-[80%] lg:inset-y-1/2 lg:-translate-y-1/2 lg:w-64 "
-			onClick={() => setIsOpen(!isOpen)}
+			initial={{ borderRadius: 20 }}
+			className="widthPhone flex flex-col py-4 px-2 justify-between items-center absolute shadow-xl overflow-hidden z-20 backdrop-blur-xl  max-lg:inset-1/2 max-lg:-translate-1/2 lg:left-8 lg:h-[80%] lg:inset-y-1/2 lg:-translate-y-1/2 lg:w-64 "
 			transition={{ duration: 1 }}
 		>
 			<div className="w-full text start">
@@ -23,6 +24,7 @@ const Sort = ({ picture }: { picture: string }) => {
 					Quad
 				</h1>
 			</div>
+
 			<ValueUI />
 
 			<Toggle />
@@ -37,6 +39,14 @@ const Sort = ({ picture }: { picture: string }) => {
 					priority
 				/>
 			</div>
+
+			<button
+				type="button"
+				onClick={() => setIsOpen(!isOpen)}
+				className="absolute inset-x-0 -top-2 left-[95%] size-fit cursor-pointer lg:hidden"
+			>
+				<CloseIcon />
+			</button>
 		</motion.div>
 	);
 };
