@@ -1,27 +1,16 @@
-import Image from "next/image";
+import WatermarkWhite from "@/core/ui/watermark-white";
+import ItemsFeatures from "../../molecules/features/items.features";
+import TextFeatures from "../../molecules/features/text.features";
 
 const Features = () => {
 	return (
-		<div className="bg-black w-full h-[80vh] font-bold text-second text-center content-end absolute inset-y-3/5 -z-10">
-			Features
-			<div className="w-2/3 lg:w-2/5 opacity-25 ">
-				<Image
-					src="/assets/bg_1.webp"
-					alt="Font"
-					width={1000}
-					height={1000}
-				/>
+		<div className="relative bg-black w-full lg:h-[60vh] content-center py-20 px-4">
+			<div className="flex bg-none container mx-auto items-center z-20 justify-between max-lg:flex-col px-4 max-lg:space-y-8 ">
+				<TextFeatures />
+				<ItemsFeatures />
 			</div>
-			<div className="bg-white h-94 ">
-				<div className="w-2/3 lg:w-2/5 opacity-30 ">
-					<Image
-						src="/assets/bg_2.webp"
-						alt="Font"
-						width={1000}
-						height={1000}
-					/>
-				</div>
-			</div>
+
+			<WatermarkWhite />
 		</div>
 	);
 };

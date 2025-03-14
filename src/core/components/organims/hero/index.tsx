@@ -1,11 +1,13 @@
+import Black from "../../molecules/hero/black";
 import Picture from "../../molecules/hero/picture";
 import Title from "../../molecules/hero/title";
 
 const Hero = () => {
 	return (
-		<div className="relative container max-auto space-y-16 p-4">
+		<div className="relative w-full place-items-center">
 			<Title />
 			<Picture />
+			<Black />
 		</div>
 	);
 };
