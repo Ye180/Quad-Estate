@@ -6,8 +6,8 @@ const ItemsDetails = () => {
 			<div className=" w-full gap-2 grid grid-row-4 lg:grid-cols-3 lg:grid-row-2 h-[45rem]">
 				<div className="bg-black text-white rounded-xl shadow-2xl col-span-2 row-span-2 h-full content-center place-items-center ">
 					{" "}
-					<div className="flex flex-col justify-between w-[90%] h-[90%]">
-						<div className="space-y-4 bg-amber-400">
+					<div className="flex flex-col justify-between items-center w-[90%] h-[90%]">
+						<div className="space-y-4">
 							<h2 className="font-bold text-2xl lg:text-4xl capitalize leading-normal tracking-normal">
 								Detailed introduction of design criteria
 							</h2>
@@ -20,7 +20,7 @@ const ItemsDetails = () => {
 								book.
 							</p>
 						</div>
-						<div className="flex justify-between">
+						<div className="flex justify-between w-full">
 							<div className="text-sm lg:text-lg opacity-70">
 								<p>Director Manager</p>
 								<p> Y. Emmanuel</p>
