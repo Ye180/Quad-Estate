@@ -23,7 +23,7 @@ const Button = ({
 		"transition hover:bg-black hover:text-second hover:border-black";
 
 	const second =
-		"text-black bg-second border transition border-second hover:bg-black hover:text-second hover:border-black";
+		"text-black bg-second border transition border-second hover:bg-black hover:text-second hover:border-white";
 
 	return (
 		<Link

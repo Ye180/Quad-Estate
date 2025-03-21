@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WatermarkBlack = () => {
 	const styles =
-		"absolute z-10 flex h-fit w-[50rem]  opacity-20 max-md:rotate-90 lg:w-3/5 lg:right-0 max-md:bottom-1/2 max-lg:bottom-0 max-lg:translate-y-1/2 max-md:-translate-x-1/2";
+		"absolute  right-0 z-10 h-fit w-[45rem] opacity-20 lg:w-1/2 lg:-bottom-50";
 
 	return (
 		<div className={styles}>

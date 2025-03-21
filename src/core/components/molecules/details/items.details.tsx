@@ -2,7 +2,7 @@ import ArrowIcon from "../../atoms/icons/arrow.icon";
 
 const ItemsDetails = () => {
 	return (
-		<div className="container mx-auto z-20 lg:px-8">
+		<div className="container mx-auto z-20 ">
 			<div className=" w-full gap-2 grid grid-row-4 lg:grid-cols-3 lg:grid-row-2 h-[45rem]">
 				<div className="bg-black text-white rounded-xl shadow-2xl col-span-2 row-span-2 h-full content-center place-items-center ">
 					{" "}
