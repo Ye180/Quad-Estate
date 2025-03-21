@@ -3,7 +3,7 @@ import { StepperItems } from "@/core/data/stepper.data";
 
 const Step = () => {
 	return (
-		<ul className="place-items-start list-none space-y-5">
+		<ul className="flex flex-col justify-between items-start list-none space-y-5">
 			{StepperItems.map((item, index) => (
 				<li
 					key={index}
