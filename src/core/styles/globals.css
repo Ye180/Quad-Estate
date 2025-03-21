@@ -33,19 +33,19 @@
 		margin: 0;
 	}
 
-	/* ::-webkit-scrollbar {
+	::-webkit-scrollbar {
 		width: 0.3rem;
 	}
 
-	::-webkit-scrollbar-track {
+	/* ::-webkit-scrollbar-track {
 		background-color: aqua;
 		border-radius: 1rem;
-	}
+	} */
 
 	::-webkit-scrollbar-thumb {
-		background: red;
-		border-radius: 5rem;
-	} */
+		background: black;
+		border-radius: 8rem;
+	}
 }
 
 @layer components {
@@ -53,17 +53,6 @@
 		/* box-shadow: -11px -15px 97px 23px; */
 		box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
 			rgba(249, 249, 249, 0.8) 0px 1px 3px -1px;
-	}
-
-	.widthPhone {
-		width: 10%;
-		height: 10%;
-		cursor: "pointer";
-	}
-
-	.widthPhone[data-isopen="true"] {
-		width: 90%;
-		height: 95%;
 	}
 
 	.parent {

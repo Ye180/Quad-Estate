@@ -6,7 +6,7 @@ import Stepper from "../organims/stepper";
 
 const HomePage = () => {
 	return (
-		<div className="relative content-center place-items-center">
+		<div className=" content-center place-items-center">
 			<Hero />
 			<Features />
 			<Detail />

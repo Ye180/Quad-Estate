@@ -1,4 +1,5 @@
 import Header from "@/core/components/molecules/header";
+import Footer from "@/core/components/organims/footer";
 import "@/core/styles/globals.css";
 import "@fontsource-variable/manrope";
 import "@fontsource-variable/teko";
@@ -19,6 +20,7 @@ export default function RootLayout({
 			<body className={`antialiased`}>
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
