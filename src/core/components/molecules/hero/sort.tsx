@@ -9,7 +9,7 @@ const Sort = ({ picture }: { picture: string }) => {
 		<motion.div
 			layout
 			initial={{ borderRadius: 20 }}
-			className=" flex flex-col py-4 px-2 justify-between items-center absolute shadow-xl overflow-hidden z-20 backdrop-blur-xl w-64  max-lg:inset-1/2 max-lg:-translate-1/2 lg:left-8 h-[80%] lg:inset-y-1/2 lg:-translate-y-1/2 "
+			className=" flex flex-col py-4 px-2 h-[70%] justify-around lg:justify-between items-center absolute shadow-xl overflow-hidden z-20 backdrop-blur-xl w-64  max-lg:inset-1/2 max-lg:-translate-1/2 lg:left-8 lg:h-[80%] lg:inset-y-1/2 lg:-translate-y-1/2 "
 			transition={{ duration: 1 }}
 		>
 			<div className="w-full text start max-lg:hidden">
