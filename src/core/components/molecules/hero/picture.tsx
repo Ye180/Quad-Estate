@@ -4,7 +4,7 @@ import Sort from "./sort";
 const Picture = () => {
 	return (
 		<div className="relative container max-auto p-4 ">
-			<div className=" h-[60vh] overflow-hidden rounded-4xl shadow lg:h-[80vh] bg-amber-700">
+			<div className=" h-[35rem] overflow-hidden rounded-4xl shadow lg:h-[80vh] bg-amber-700">
 				<Image
 					alt="Image1"
 					src="/assets/home1.webp"
