@@ -32,14 +32,7 @@ const ItemsDetails = () => {
 						</div>
 					</div>
 				</div>
-				<div
-					className=" bg-amber-800 row-span-4 col-span-1  h-full rounded-xl overflow-hidden"
-					// style={{
-					// 	backgroundImage: 'url("/assets/decor.webp")',
-					// 	backgroundSize: "cover",
-					// 	backgroundPosition: "center",
-					// }}
-				>
+				<div className=" bg-amber-800 row-span-4 col-span-1  h-full rounded-xl overflow-hidden">
 					<Image
 						src="/assets/decor.webp"
 						alt="Image1"
