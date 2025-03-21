@@ -64,4 +64,3 @@ const ItemsDetails = () => {
 };
 
 export default ItemsDetails;
-//  row-start-1 col-start-1 row-end-3 col-end-3 border-2
