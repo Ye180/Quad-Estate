@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ArrowIcon from "../../atoms/icons/arrow.icon";
 
 const ItemsDetails = () => {
@@ -33,20 +34,41 @@ const ItemsDetails = () => {
 				</div>
 				<div
 					className=" bg-amber-800 row-span-4 col-span-1  h-full rounded-xl overflow-hidden"
-					style={{
-						backgroundImage: 'url("/assets/decor.webp")',
-						backgroundSize: "cover",
-						backgroundPosition: "center",
-					}}
-				></div>
-				<div
-					className="bg-amber-950  h-full row-span-2 rounded-xl"
-					style={{
-						backgroundImage: 'url("/assets/second_decor.webp")',
-						backgroundSize: "cover",
-						backgroundPosition: "center",
-					}}
-				></div>
+					// style={{
+					// 	backgroundImage: 'url("/assets/decor.webp")',
+					// 	backgroundSize: "cover",
+					// 	backgroundPosition: "center",
+					// }}
+				>
+					<Image
+						src="/assets/decor.webp"
+						alt="Image1"
+						width={3000}
+						height={3000}
+						quality={70}
+						style={{
+							objectFit: "cover",
+							width: "100%",
+							height: "100%",
+						}}
+						priority
+					/>
+				</div>
+				<div className="bg-amber-950  h-full row-span-2 rounded-xl overflow-hidden">
+					<Image
+						src="/assets/second_decor.webp"
+						alt="Image1"
+						width={3000}
+						height={3000}
+						quality={70}
+						style={{
+							objectFit: "cover",
+							width: "100%",
+							height: "100%",
+						}}
+						priority
+					/>
+				</div>
 				<div className=" bg-black  h-full row-span-2 rounded-xl text-white flex items-center justify-center">
 					<div className="w-[85%] h-[85%] content-end space-y-4">
 						<h2 className="font-bold text-lg lg:text-4xl capitalize leading-normal tracking-normal">
