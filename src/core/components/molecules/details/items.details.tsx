@@ -25,7 +25,7 @@ const ItemsDetails = () => {
 								<p>Director Manager</p>
 								<p> Y. Emmanuel</p>
 							</div>
-							<div className="p-2 lg:p-4 bg-white rounded-full rotate-45">
+							<div className="p-2 lg:p-4 bg-white rounded-full rotate-45 cursor-pointer">
 								<ArrowIcon />
 							</div>
 						</div>

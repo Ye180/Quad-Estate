@@ -2,7 +2,7 @@ import HeadSection from "../../atoms/head.section";
 
 const TextDetail = () => {
 	return (
-		<div className="container mx-auto flex justify-center items-center text-black w-full space-y-4 max-lg:text-sm gap-3 max-lg:flex-col max-lg:text-center">
+		<div className="container mx-auto flex justify-center items-center text-black w-full space-y-4 max-lg:text-sm gap-3 max-lg:flex-col max-lg:text-center ">
 			<HeadSection className="xl:text-5xl lg:w-1/2">
 				Real Time generation of optimal building design
 			</HeadSection>
