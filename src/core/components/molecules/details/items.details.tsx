@@ -4,10 +4,10 @@ const ItemsDetails = () => {
 	return (
 		<div className="container mx-auto z-20 ">
 			<div className=" w-full gap-2 grid grid-row-4 lg:grid-cols-3 lg:grid-row-2 h-[45rem]">
-				<div className="bg-black text-white rounded-xl shadow-2xl col-span-2 row-span-2 h-full content-center place-items-center ">
+				<div className="bg-black text-white rounded-xl shadow-2xl col-span-2 row-span-2 h-full content-center place-items-center">
 					{" "}
-					<div className="flex flex-col justify-between items-center w-[90%] h-[90%]">
-						<div className="space-y-4 bg-amber-200">
+					<div className="flex flex-col justify-between items-center w-[90%] h-[90%] bg-amber-300">
+						<div className="space-y-4">
 							<h2 className="font-bold text-2xl lg:text-4xl capitalize leading-normal tracking-normal">
 								Detailed introduction of design criteria
 							</h2>
