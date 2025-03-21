@@ -6,7 +6,9 @@ const ItemsStepper = () => {
 	return (
 		<div className="space-y-10 flex flex-col justify-between max-md:place-items-center ">
 			<HeadSection>Easily Master Design</HeadSection>
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+			<p className="max-md:text-center">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+			</p>
 			<Step />
 			<Button url="/" variant="secondary" className="w-fit">
 				Generate new
