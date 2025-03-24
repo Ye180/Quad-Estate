@@ -32,7 +32,7 @@ const ItemsDetails = () => {
 						</div>
 					</div>
 				</div>
-				<div className=" bg-amber-800 row-span-4 col-span-1  h-full rounded-xl overflow-hidden">
+				<div className="row-span-4 col-span-1  h-full rounded-xl overflow-hidden">
 					<Image
 						src="/assets/decor.webp"
 						alt="Image1"
@@ -47,7 +47,7 @@ const ItemsDetails = () => {
 						priority
 					/>
 				</div>
-				<div className="bg-amber-950  h-full row-span-2 rounded-xl overflow-hidden">
+				<div className="h-full row-span-2 rounded-xl overflow-hidden">
 					<Image
 						src="/assets/second_decor.webp"
 						alt="Image1"

@@ -22,7 +22,7 @@ const Sort = ({ picture }: { picture: string }) => {
 
 			<Toggle />
 
-			<div className="bg-amber-800 w-[95%] overflow-hidden rounded-xl max-lg:hidden">
+			<div className="w-[95%] overflow-hidden rounded-xl max-lg:hidden">
 				<Image
 					alt="Image1"
 					src={picture}
