@@ -1,5 +1,13 @@
+import ItemsBars from "../../molecules/footer/items.bars";
+import ItemsForm from "../../molecules/footer/items.form";
+
 const Footer = () => {
-	return <footer className="w-full  bg-black text-white "></footer>;
+	return (
+		<footer className="w-full bg-black text-white h-64 py-8 space-y-10">
+			<ItemsForm />
+			<ItemsBars />
+		</footer>
+	);
 };
 
 export default Footer;

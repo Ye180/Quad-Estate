@@ -1,6 +1,9 @@
 import type { SVGProps } from "react";
 
-export default function ArrowIcon(props: SVGProps<SVGSVGElement>) {
+export default function ArrowIcon(
+	props?: SVGProps<SVGSVGElement>,
+	stroke?: string,
+) {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +14,7 @@ export default function ArrowIcon(props: SVGProps<SVGSVGElement>) {
 		>
 			<path
 				fill="none"
-				stroke="#000"
+				stroke={stroke}
 				strokeLinecap="round"
 				strokeLinejoin="round"
 				strokeWidth={1.5}
