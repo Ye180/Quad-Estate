@@ -4,7 +4,7 @@ import { Input } from "../../atoms/input";
 
 const ItemsForm = () => {
 	return (
-		<div className="container mx-auto flex justify-between items-center px-4  max-md:flex-col">
+		<div className="container mx-auto flex justify-between items-center px-4  max-md:flex-col bg-black ">
 			<div className="flex md:flex-col gap-4">
 				{["Commercial", "Commercial", "Commercial"].map(
 					(items, index) => {
@@ -26,7 +26,7 @@ const ItemsForm = () => {
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 					Tenetur minus itaque hic soluta cupiditate.
 				</p>
-				<div className="flex justify-between items-center bg-white rounded-full overflow-hidden px-2 w-64">
+				<div className="flex justify-between items-center bg-white rounded-full overflow-hidden px-2 w-64 ">
 					<Input
 						type="text"
 						id="name"
