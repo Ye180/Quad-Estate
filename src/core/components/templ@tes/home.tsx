@@ -14,7 +14,7 @@ const HomePage = () => {
 			<Construction />
 		</div>
 	);
-	D;
+	
 };
 
 export default HomePage;
